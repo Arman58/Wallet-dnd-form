@@ -1,0 +1,111 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropzone {
+    width: 100%;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap:10px;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.amountInput {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.amountInput input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.amountInput span {
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addButton {
+    background-color: white;
+    color: #3F7EF7;
+}
+
+.removeButton {
+    color: #f44336;
+    background-color: white;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.walletForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+
+.currency {
+    color: #71B398;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+.totalCurrency {
+    color: #71B398;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
